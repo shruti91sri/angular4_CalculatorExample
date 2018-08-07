@@ -1,0 +1,7 @@
+<h1>Greeter</h1>
+<hr>
+<label for ="">User Name: </label>
+<input type="text" #textUserName/>
+<input type="button" value="Greet" (click)="greet(textUserName.value)"/>
+<div> {{greetMessage}}</div>
+<hr/>
